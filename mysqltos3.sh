@@ -63,7 +63,7 @@ s3cmd put -f ${TMP_PATH}tracker_dump${DATESTAMP}.tar.gz s3://${S3BUCKET}/${S3PAT
 echo "New backup uploaded."
 
 echo "Removing the cache files..."
-rm ${TMP_PATH}$chinagames_dump${DATESTAMP}.tar.gz
-rm ${TMP_PATH}$tracker_dump${DATESTAMP}.tar.gz
+rm ${TMP_PATH}chinagames_dump${DATESTAMP}.tar.gz
+rm ${TMP_PATH}tracker_dump${DATESTAMP}.tar.gz
 
 echo "All done."
